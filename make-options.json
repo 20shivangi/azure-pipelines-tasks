@@ -1,6 +1,13 @@
 {
     "tasks": [
-        "AzurePowerShellV4"
+        "AzurePowerShellV4",
+		"AzureCloudPowerShellDeploymentV1",
+		"AzurePowerShellV2",
+		"AzurePowerShellV3",
+		"AzureFileCopyV1",
+		"AzureFileCopyV2",
+		"AzureFileCopyV3",
+		"SqlAzureDacpacDeploymentV1"
     ],
     "taskResources": [
         "*.ps1",
