@@ -67,7 +67,8 @@ export class PSRunner extends events.EventEmitter {
 					} else {
 						this._runDeferred.resolve(null);
 					}
-				} else if (data != '\n') {
+				} 
+				if (data != '\n') {
 					// Otherwise, normal stdout.
 					debug('stdout: ' + data);
 				}
